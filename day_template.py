@@ -12,12 +12,16 @@ def parse_input():
 
 def solve_part_one():
     inputObject = parse_input()
-    print("The answer for part 1 is: {}".format(inputObject))
+
+    solution = inputObject
+    print("The answer for part 1 is: {}".format(solution))
 
 
 def solve_part_two():
     inputObject = parse_input()
-    print("The answer for part 2 is: {}".format(inputObject))
+
+    solution = inputObject
+    print("The answer for part 2 is: {}".format(solution))
 
 
 if __name__ == '__main__':
