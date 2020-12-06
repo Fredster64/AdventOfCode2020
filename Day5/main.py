@@ -63,6 +63,7 @@ def get_boarding_pass_from_seat_id(seatID):
 
     return rowString + columnString
 
+
 def solve_part_one():
     boardingPasses = parse_input()
     boardingPassIDs = map(get_seat_ID, boardingPasses)
